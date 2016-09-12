@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Hierarchical Design of a CLA Adder.srcs/sources_1/new/CLA_ADDER.v"
+verilog xil_defaultlib  "../../../Hierarchical Design of a CLA Adder.srcs/sources_1/new/CLA.v"
+verilog xil_defaultlib  "../../../Hierarchical Design of a CLA Adder.srcs/sources_1/new/SUM_CLA.v"
+verilog xil_defaultlib  "../../../Hierarchical Design of a CLA Adder.srcs/sim_1/new/TB_CLA.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

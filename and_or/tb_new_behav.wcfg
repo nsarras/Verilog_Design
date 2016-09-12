@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_new_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_new" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject db_ref_id="1" fp_name="/tb_new/tb_in_top" type="array">
+      <obj_property name="ElementShortName">tb_in_top[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_in_top[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_new/tb_top_out" type="logic">
+      <obj_property name="ElementShortName">tb_top_out</obj_property>
+      <obj_property name="ObjectShortName">tb_top_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_new/tb_top_out" type="logic">
+      <obj_property name="ElementShortName">tb_top_out</obj_property>
+      <obj_property name="ObjectShortName">tb_top_out</obj_property>
+   </wvobject>
+</wave_config>

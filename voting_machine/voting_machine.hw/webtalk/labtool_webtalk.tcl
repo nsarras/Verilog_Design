@@ -1,0 +1,28 @@
+webtalk_init -webtalk_dir C:/Users/nsarras/voting_machine/voting_machine.hw/webtalk/
+webtalk_register_client -client project
+webtalk_add_data -client project -key date_generated -value "Wed Feb 17 18:33:29 2016" -context "software_version_and_target_device"
+webtalk_add_data -client project -key product_version -value "Vivado v2015.2 (64-bit)" -context "software_version_and_target_device"
+webtalk_add_data -client project -key build_version -value "1266856" -context "software_version_and_target_device"
+webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
+webtalk_add_data -client project -key registration_id -value "211153569_0_0_822" -context "software_version_and_target_device"
+webtalk_add_data -client project -key tool_flow -value "labtool" -context "software_version_and_target_device"
+webtalk_add_data -client project -key beta -value "FALSE" -context "software_version_and_target_device"
+webtalk_add_data -client project -key route_design -value "FALSE" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_family -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_device -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_package -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
+webtalk_add_data -client project -key random_id -value "7fc722b4-2078-4a4b-9bf0-42fd7ebb2f61" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_id -value "6c4e945a-2638-4c05-bd3b-f609650866b4" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "6" -context "software_version_and_target_device"
+webtalk_add_data -client project -key os_name -value "Microsoft Windows 7 , 64-bit" -context "user_environment"
+webtalk_add_data -client project -key os_release -value "Service Pack 1  (build 7601)" -context "user_environment"
+webtalk_add_data -client project -key cpu_name -value "Intel(R) Core(TM) i7-3615QM CPU @ 2.30GHz" -context "user_environment"
+webtalk_add_data -client project -key cpu_speed -value "2294 MHz" -context "user_environment"
+webtalk_add_data -client project -key total_processors -value "1" -context "user_environment"
+webtalk_add_data -client project -key system_ram -value "8.000 GB" -context "user_environment"
+webtalk_register_client -client labtool
+webtalk_add_data -client labtool -key cable -value "" -context "labtool\\usage"
+webtalk_add_data -client labtool -key pgmcnt -value "00:00:00" -context "labtool\\usage"
+webtalk_transmit -clientid 1551124757 -regid "211153569_0_0_822" -xml C:/Users/nsarras/voting_machine/voting_machine.hw/webtalk/usage_statistics_ext_labtool.xml -html C:/Users/nsarras/voting_machine/voting_machine.hw/webtalk/usage_statistics_ext_labtool.html -wdm C:/Users/nsarras/voting_machine/voting_machine.hw/webtalk/usage_statistics_ext_labtool.wdm -intro "<H3>LABTOOL Usage Report</H3><BR>"
+webtalk_terminate

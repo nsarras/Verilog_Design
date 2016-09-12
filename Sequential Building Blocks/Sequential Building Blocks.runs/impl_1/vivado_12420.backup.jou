@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue Mar 15 12:34:50 2016
+# Process ID: 1460
+# Log file: C:/Users/nsarras/Sequential Building Blocks/Sequential Building Blocks.runs/impl_1/top_level.vdi
+# Journal file: C:/Users/nsarras/Sequential Building Blocks/Sequential Building Blocks.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
